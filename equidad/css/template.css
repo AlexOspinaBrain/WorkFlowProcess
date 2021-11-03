@@ -1,0 +1,150 @@
+body {
+	font-family: tahoma, verdana, "sans-serif";
+	font-size: 12px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+}
+}
+
+form.formular {
+padding:20px;
+}
+.formular fieldset {
+	padding: 15px;
+	border: 2px solid #B5B8C8;
+}
+
+
+.formular label span {
+        color: #000;
+        font-weight:bold;
+}
+.formular legend {
+	font-size: 15px;
+	color: #15428B;
+	font-weight: 900;
+}
+
+.formular fieldset label {
+	float: none;
+	text-align: inherit;
+	display:block;
+	width: auto;
+}
+.formular input,.formular select,.formular textarea {
+	display: block;  /* this breaks relative positioning */
+	margin-bottom: 5px;
+}
+
+.formular .text-input {
+	width: 250px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.formular textarea {
+	width: 250px;
+	height: 70px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF repeat-x;
+}
+
+.formular .infos {
+	background: #FFF;
+	color: #333;
+	font-size: 12px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.formular span.checkbox, .formular .checkbox, .formular .radio {
+	display: inline;
+}
+
+.formular .submit {
+	
+	border: 1px solid #AAA;
+	padding: 4px;
+	margin-top: 20px;
+	float: right;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.formular hr {
+	clear: both;
+	visibility: hidden;
+}
+
+.formular .fc-error {
+	width: 350px;
+	color: #555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	margin-bottom: 15px;
+	background: #FFEAEA;
+}
+		.formular legend{
+			font-size:13px;
+		}
+		.radplanilla{
+			border-color: #E6E6E6;
+		}
+		.radplanilla td{
+			font-size:10px;
+		}		
+		.radplanilla th{
+			color: #15428B;
+			background-color: #F0F0F0;
+		}
+		.radplanilla td{
+			height: 30px;
+		}
+		.radplanilla tr .recibido{
+			width: 100px;
+		}
+		
+			.TblGreen{
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			border-collapse:collapse;
+		}
+		
+		.TblGreen td, .TblGreen th {
+			font-size:1.2em;
+			border:1px solid #98bf21;
+			padding:3px 7px 2px 7px;
+			
+		}
+		
+		.TblGreen td span, .TblGreen th span {
+			font-weight:normal;
+		}
+		
+		.TblGreen th {
+			font-size:0.9em;
+			text-align:left;
+			padding-top:5px;
+			padding-bottom:4px;
+			background-color:#327E04;
+			color:#fff;
+			text-align:center;
+		}
+		
+		.TblGreen tr.alt td, td.alt {
+			color:#000;
+			background-color:#EAF2D3;
+		}
+				
+td .LinkTramite{	color: blue;text-decoration: none;}
+td .LinkTramite:hover{text-decoration: underline}
+		

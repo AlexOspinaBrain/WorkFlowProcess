@@ -1,0 +1,12 @@
+
+{{#if  encuesta}}
+<fieldset id="DatosProducto">
+	<legend><b style="font-size: 16px;">Encuesta de satisfacción: </legend>		
+	<table style="font-size: 12px;" class="TableRadicado" width="">
+		{{#each  encuesta}}
+			<tr><th> <p style="text-align:justify; width:700px; font-weight: bold;"> {{pregunta}}:<br><b id="PostTomador">{{respuesta}}</b></p></th></tr>
+		{{/each}}
+	</table>
+</fieldset>
+{{/if}}
+

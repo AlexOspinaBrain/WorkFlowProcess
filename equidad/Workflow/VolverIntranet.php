@@ -1,0 +1,9 @@
+<html>
+<head>
+<script>
+location.href="principal";
+</script>
+</head>
+<body>
+</body>
+</html>

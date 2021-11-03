@@ -1,0 +1,85 @@
+
+<h3>ENCUESTA DE SATISFACCIÓN ATENCIÓN DE QUEJAS O RECLAMOS LA EQUIDAD SEGUROS O.C.</h3>
+<br>
+	 <p style="text-align:justify; width:700px; font-weight: bold;"> 
+	1.	Indique el periodo de tiempo en el que se dio respuesta a su 
+	requerimiento: (Nota: Tenga en cuenta que los días se empiezan a contar 
+	a partir del día siguiente hábil de recibida la solicitud)
+ </p>
+	<input class="radio" type="radio" name="Respuesta[0]" value="Entre 8 y 15 días hábiles.">
+	Entre 8 y 15 días hábiles.<br>
+	<input class="radio" type="radio" name="Respuesta[0]" value="Entre 15 y 20 días hábiles.">
+	Entre 15 y 20 días hábiles.<br>
+	<input class="radio" type="radio" name="Respuesta[0]" value="Entre 20 y 30 días hábiles.">
+	Entre 20 y 30 días hábiles.<br>
+	<input class="radio" type="radio" name="Respuesta[0]" value="Más de 30 días hábiles.">
+	Más de 30 días hábiles.<br>
+<br>
+
+ <p style="text-align:justify; width:700px; font-weight: bold;"> 
+	2.	En términos de calidad, como califica usted la respuesta a su requerimiento: 
+	*(Nota: Calidad se refiere a la claridad y suficiencia en la respuesta recibida.)
+ </p>
+	<input class="radio" type="radio" name="Respuesta[1]" value="Excelente.">
+	Excelente.<br>
+	<input class="radio" type="radio" name="Respuesta[1]" value="Buena.">
+	Buena.<br>
+	<input class="radio" type="radio" name="Respuesta[1]" value="Regular.">
+	Regular.<br>
+	<input class="radio" type="radio" name="Respuesta[1]" value="Deficiente.">
+	Deficiente.<br>
+<br>
+
+ <p style="text-align:justify; width:500px; font-weight: bold;"> 
+	3.	Califique la atención recibida por parte del área encargada de la gestión de 
+	su requerimiento
+ </p>
+	<input class="radio" type="radio" name="Respuesta[2]" value="Excelente.">
+	Excelente.<br>
+	<input class="radio" type="radio" name="Respuesta[2]" value="Buena.">
+	Buena.<br>
+	<input class="radio" type="radio" name="Respuesta[2]" value="Regular.">
+	Regular.<br>
+	<input class="radio" type="radio" name="Respuesta[2]" value="Deficiente.">
+	Deficiente.<br>
+<br>
+
+ <p style="text-align:justify; width:500px; font-weight: bold;"> 
+	4.	Sugerencias y/o comentarios
+ </p>
+	<textarea class="text-input" name="Respuesta[3]" style="width:450px; height:50px"></textarea>
+<br>
+
+ <p style="text-align:justify; width:500px; font-weight: bold;"> 
+	5.	Nombre Completo
+ </p>
+	<input class="text-input" type="text" name="Respuesta[4]">
+<br>
+
+ <p style="text-align:justify; width:500px; font-weight: bold;"> 
+	6.	Correo Electrónico:
+ </p>
+	<input class="validate[custom[email]] text-input" type="text" name="Respuesta[5]">
+<br>
+	 <p style="text-align:justify; width:500px; font-weight: bold;"> 
+	7.	Tipo de Seguro:
+ </p>
+	<select class="text-input" name="Respuesta[6]">
+		<option></option>
+		{{#each  companias}}
+			<option value="{{des_compania}}">{{des_compania}}</option>
+		{{/each}}
+	</select>
+<br>
+
+<input type="hidden" name="Pregunta[0]" value="Indique el periodo de tiempo en el que se dio respuesta a su 
+	requerimiento: (Nota: Tenga en cuenta que los días se empiezan a contar 
+	a partir del día siguiente hábil de recibida la solicitud)"/>
+<input type="hidden" name="Pregunta[1]" value="En términos de calidad, como califica usted la respuesta a su requerimiento: 
+	*(Nota: Calidad se refiere a la claridad y suficiencia en la respuesta recibida.)"/>
+<input type="hidden" name="Pregunta[2]" value="Califique la atención recibida por parte del área encargada de la gestión de 
+	su requerimiento"/>
+<input type="hidden" name="Pregunta[3]" value="Sugerencias y/o comentarios"/>
+<input type="hidden" name="Pregunta[4]" value="Nombre Completo"/>
+<input type="hidden" name="Pregunta[5]" value="Correo Electrónico"/>
+<input type="hidden" name="Pregunta[6]" value="Tipo de Seguro"/>
